@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>match-match-game</title>
+</head>
+
+<body>
+  <header class="header">
+    <ul class="logo">
+      <li>match</li>
+      <li class="logo_white">match</li>
+    </ul>
+    <div class="container">
+      <nav class="nav-menu">
+        <div div class='nav-menu__item nav-menu__item_active'>
+          <img src="assets/svg/about.svg" class="nav-list__img">
+          <div class="nav-menu__label">About Game</div>
+        </div>
+        <div class='nav-menu__item'>
+          <img src="assets/svg/best-score.svg" class="nav-list__img">
+          <div class="nav-list__label">Best Score</div>
+        </div>
+        <div class='nav-menu__item'>
+          <img src="assets/svg/settings.svg" class="nav-list__img">
+          <div class="nav-menu__label">Game settings</div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="register">
+      <div class="register__btn">register new player</div>
+      <img src="./assets/acc-icon.png" alt="avatar" class="register__img">
+    </div>
+
+  </header>
+  <main>
+    <h2>Game settings</h2>
+    <form action="#" class='game-settings'>
+      <ul class="set">
+        <li>
+          <div class="set__label">
+            <label for="cards-type">Game cards</label>
+          </div>
+          <div class="cards__type">
+            <select id="cards-type" name="phone">
+              <option value="var1">variant1</option>
+              <option value="var2">variant2</option>
+            </select>
+          </div>
+        </li>
+        <li>
+          <div class="set__label">
+            <label for="difficulty">Difficulty</label></div>
+          <div class="game__diff"><select id="difficulty" name="phone">
+            <option value="easy">Easy (4x4)</option>
+            <option value="normal">Normal (6x6)</option>
+            <option value="hard">Hard (8x8)</option></div>
+
+
+        </li>
+      </ul>
+      </select>
+    </form>
+  </main>
+</body>
+
+</html>
