@@ -7,15 +7,16 @@ export class NewPlayerBtnComponent extends WFMComponent {
   }
   afterInit():void {
     const newPlayerBtn = document.querySelector(".register");
-    if (newPlayerBtn) newPlayerBtn.addEventListener('click', newPlayerButton.initNewPlayerForm);
+    if (newPlayerBtn) {newPlayerBtn.addEventListener('click', newPlayerButton.initNewPlayerForm)}
     if (newPlayerBtn) {newPlayerBtn.addEventListener('click', this.initNewPlayerForm)}
-    if (playerFormClose) playerFormClose.addEventListener('click', this.initNewPlayerForm);
-    }
+  }
 
   initNewPlayerForm():void {
     const playerForm = document.querySelector(".modal");
     if (playerForm) playerForm.classList.toggle('show');
   }
+
+
 
 
 }

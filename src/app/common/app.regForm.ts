@@ -1,12 +1,11 @@
 import { WFMComponent } from "../../framework/index2";
-import { AppHeader } from "./app.header";
 import { newPlayerButton } from "./newPlayerBtn";
 
 export class AppRegFormComponent extends WFMComponent {
   constructor(config: { selector: string, template: string }) {
     super(config);
   }
-  afterInit(){
+  afterInit():void{
     const playerFormClose = document.querySelector('.modal__close');
     if (playerFormClose) playerFormClose.addEventListener('click', newPlayerButton.initNewPlayerForm);
 

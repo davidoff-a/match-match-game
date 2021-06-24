@@ -4,6 +4,6 @@ import { settingsComponent } from '../../components/settingsComponent/settingsCo
 
 export const appRoutes = [
   { path: 'about', text: 'About', component: aboutComponent },
-  { path: 'best-score', text: 'Best Scort', component: bestScoreComponent },
+  { path: 'best-score', text: 'Best Score', component: bestScoreComponent },
   { path: 'settings', text: 'Settings', component: settingsComponent },
 ];

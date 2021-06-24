@@ -16,6 +16,6 @@ export class Component {
     router.activateLink('nav-menu__item', 'nav-menu__item_active');
   }
   afterInit():void{
-    console.log('hi');
+    // console.log('');
   }
 }
